@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor Appointment & Lifestyle Suggestions</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f8fb;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 50px auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #004d40;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+
+    .suggestions {
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #e3f2fd;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .suggestions h3 {
+      color: #00796b;
+      margin-bottom: 15px;
+    }
+
+    .suggestions ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      color: #444;
+    }
+
+    .suggestions ul li {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    .doctor-list {
+      margin-top: 30px;
+    }
+
+    .doctor-list h3 {
+      color: #00796b;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .doctor {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e0f2f1;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .doctor h4 {
+      margin: 0;
+      font-size: 18px;
+      color: #004d40;
+    }
+
+    .doctor p {
+      margin: 5px 0;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .appointment-button {
+      background-color: #00838f;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 14px;
+      transition: background-color 0.3s;
+    }
+
+    .appointment-button:hover {
+      background-color: #004d40;
+    }
+
+    .back-button {
+      display: block;
+      text-align: center;
+      margin: 30px auto 0;
+      background-color: #00796b;
+      color: white;
+      padding: 10px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      max-width: 200px;
+      transition: background-color 0.3s;
+    }
+
+    .back-button:hover {
+      background-color: #004d40;
+    }
+
+    @media (max-width: 768px) {
+      .doctor {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .doctor h4 {
+        font-size: 16px;
+      }
+
+      .appointment-button {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Wilson Disease is Positive - Doctor’s Appointment & Lifestyle Suggestions</h1>
+
+    <div class="suggestions">
+      <h3>Lifestyle Suggestions</h3>
+      <p>Based on your symptoms, we recommend the following lifestyle changes:</p>
+      <ul>
+        <li>Consult a healthcare professional regularly for checkups.</li>
+        <li>Incorporate a balanced diet, rich in copper-regulating foods.</li>
+        <li>Engage in regular physical activity, such as walking or swimming.</li>
+        <li>Avoid alcohol and other substances that may harm liver function.</li>
+      </ul>
+    </div>
+
+    <div class="doctor-list">
+      <h3>Find a Doctor Near You</h3>
+      <div class="doctor">
+        <div>
+          <h4>Dr. Skanda</h4>
+          <p>Specialization: Hepatology</p>
+          <p>Phone: +1 (234) 567-8901</p>
+        </div>
+        <a href="tel:7829871341" class="appointment-button">Call Now</a>
+      </div>
+      <div class="doctor">
+        <div>
+          <h4>Dr. Mythri</h4>
+          <p>Specialization: Gastroenterology</p>
+          <p>Phone: +1 (234) 567-8902</p>
+        </div>
+        <a href="tel:8951073898" class="appointment-button">Call Now</a>
+      </div>
+      <div class="doctor">
+        <div>
+          <h4>Dr. Thanushree</h4>
+          <p>Specialization: Internal Medicine</p>
+          <p>Phone: 9663832828</p>
+        </div>
+        <a href="tel:9663832828" class="appointment-button">Call Now</a>
+      </div>
+    </div>
+
+    <a href="index.html" class="back-button">Go Back</a>
+  </div>
+</body>
+</html>
